@@ -8,7 +8,7 @@
   <section name="data">
     <explorer view="C:\ProgramData\PureBasic\Examples\" pattern="0"/>
     <log show="1"/>
-    <lastopen date="2025-10-03 16:02" user="Bär" host="DESKTOP-BQHT23V"/>
+    <lastopen date="2025-10-03 16:10" user="Bär" host="DESKTOP-BQHT23V"/>
   </section>
   <section name="files">
     <file name="..\src\purethon_examples.pb">
@@ -35,7 +35,7 @@
   <section name="targets">
     <target name="Debug" enabled="1" default="1">
       <inputfile value="..\src\purethon_examples.pb"/>
-      <outputfile value="..\bin\purethon.dll"/>
+      <outputfile value="..\bin\purethon_examples.cp313-win_amd64.pyd"/>
       <compiler version="PureBasic 6.21 (Windows - x64)"/>
       <executable value="..\bin\purethon_examples.cp313-win_amd64.pyd"/>
       <options asm="1" thread="1" xpskin="1" dpiaware="1" optimizer="1"/>
