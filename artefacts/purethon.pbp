@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://www.purebasic.com/namespace" version="1.0" creator="PureBasic 6.21 (Windows - x64)">
+  <section name="config">
+    <options closefiles="1" openmode="0" name="purethon"/>
+    <comment>bringing PureBasic to Python</comment>
+  </section>
+  <section name="data">
+    <explorer view="C:\ProgramData\PureBasic\Examples\" pattern="0"/>
+    <log show="1"/>
+    <lastopen date="2025-10-03 16:02" user="Bär" host="DESKTOP-BQHT23V"/>
+  </section>
+  <section name="files">
+    <file name="..\src\purethon_examples.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" sortindex="999" panelstate="++"/>
+      <fingerprint md5="1fe4d619c304f2fa57ea1b6738c1a8c3"/>
+    </file>
+    <file name="..\src\purethon\pymethod.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" sortindex="999" panelstate="++"/>
+      <fingerprint md5="ab9f15077915f56aa7ef517042e275c9"/>
+    </file>
+    <file name="..\src\purethon\pymodule.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" sortindex="999" panelstate="++"/>
+      <fingerprint md5="823e715ec835804fe6adc0becf7e89a2"/>
+    </file>
+    <file name="..\src\purethon\pyobject.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" sortindex="999" panelstate="++"/>
+      <fingerprint md5="cd777226e9993fbbe5828ed44cb6e6d9"/>
+    </file>
+    <file name="..\src\purethon\runtime.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" sortindex="999" panelstate="++"/>
+      <fingerprint md5="7641fc5b8e39ca4279afca31e10a60b3"/>
+    </file>
+  </section>
+  <section name="targets">
+    <target name="Debug" enabled="1" default="1">
+      <inputfile value="..\src\purethon_examples.pb"/>
+      <outputfile value="..\bin\purethon.dll"/>
+      <compiler version="PureBasic 6.21 (Windows - x64)"/>
+      <executable value="..\bin\purethon_examples.cp313-win_amd64.pyd"/>
+      <options asm="1" thread="1" xpskin="1" dpiaware="1" optimizer="1"/>
+      <format exe="dll" cpu="0"/>
+    </target>
+  </section>
+</project>
